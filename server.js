@@ -1002,7 +1002,7 @@ function analyze() {
       scoreArr.push(res.score);
       html += `
         <div class="item-comment">
-          <div>${strategy}Total Strategy Score: <span style="color:#266bd8">${res.score} pts</span></div>
+          <div>${strategy} Total Strategy Score: <span style="color:#266bd8">${res.score} pts</span></div>
           <div>${res.comment}</div>
           <ul>${res.detailHtml}</ul>
         </div>

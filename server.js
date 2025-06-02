@@ -1013,7 +1013,7 @@ function analyze() {
       drawDonut(`donut${i}`, scoreArr[i], chartColors[i]);
     }
     document.getElementById("score-label").innerText = `Total Strategy Score`;
-    document.getElementById("score-meta").innerHTML = `<span style="color:#1c3765;">${ticker} Analysis<br>Date & Time of Inquiry: ${(new Date()).toLocaleString()}</span>`;
+    document.getElementById("score-meta").innerHTML = `<span style="color:#1c3765;">${ticker} Analysis</span>`; //<br>Date & Time of Inquiry: ${(new Date()).toLocaleString()}
     document.getElementById("score-recommend").innerHTML = "";
 
   }).catch(e => {
